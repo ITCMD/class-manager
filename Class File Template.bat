@@ -1,0 +1,9 @@
+set cname=full name for course
+set cnum=Short name for course
+set pname=Teacher's name
+set pmail=Teacher's eamil
+set announcements=URL for announcements page
+set assignmentss=Course content beginning
+set assignmentse=Course content end
+set weekstartminusone=number
+set grades=Gades URL
