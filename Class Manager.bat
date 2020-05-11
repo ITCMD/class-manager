@@ -1,5 +1,7 @@
 @echo off
-title Class Manager for Liberty University ^| By ITCMD
+set BlackBoard=https://learn.liberty.edu/webapps/lulm-lander-BBLEARN/app/lander.jsp?tab_tab_group_id=_103_1
+set Schoolname=Liberty University
+title Class Manager for Blackboard ^| By ITCMD
 if not exist "Class Manager On Top.exe" (
 	if exist "Class Manager On Top.ahk" start "" "Class Manager On top.ahk" /MIN
 ) ELSE (
@@ -28,12 +30,12 @@ for /f "tokens=*" %%A in ('dir /b Classes\*.bat') do (
 
 
 
-echo  B] [36mOpen Blackboard [37mLiberty University[0m
+echo  B] [36mOpen Blackboard [37m%school%[0m
 echo [90m
 choice /c B123456789QWERTYUIOP
 set /a _err=%errorlevel% -1
 if "%_err%"=="0" (
-	start https://learn.liberty.edu/webapps/lulm-lander-BBLEARN/app/lander.jsp?tab_tab_group_id=_103_1
+	start %Blackboard%
 	goto menu
 )
 echo [0m
