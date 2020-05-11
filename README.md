@@ -1,4 +1,5 @@
 # class-manager
+![img](https://i.imgur.com/ZMdGWQr.png)
 Class Manager for schools using Blackboard. Blackboard is a maze of buttons and slow on slow networks. This helps you get where you need to go faster.
 
 ## Setup
