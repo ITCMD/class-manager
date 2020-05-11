@@ -3,7 +3,7 @@ title Class Manager for Liberty University ^| By ITCMD
 if not exist "Class Manager On Top.exe" (
 	if exist "Class Manager On Top.ahk" start "" "Class Manager On top.ahk" /MIN
 ) ELSE (
-	start "" "Class Manager On top.exe" /MIN
+	if exist "Class Manager On Top.exe" start "" "Class Manager On top.exe" /MIN
 )
 setlocal EnableDelayedExpansion
 @mode con lines=8 cols=60
