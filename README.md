@@ -11,7 +11,7 @@ Class Manager for schools using Blackboard. Blackboard is a maze of buttons and 
 
 **4.** Edit the class file by right clicking and selecting `Edit`.
 
-#### Class File setup
+### Class File setup
 **1.** the class file will look like this:
 ```set cname=full name for course
 set cnum=Short name for course
