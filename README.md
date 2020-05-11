@@ -2,7 +2,7 @@
 Class Manager for schools using Blackboard. Blackboard is a maze of buttons and slow on slow networks. This helps you get where you need to go faster.
 
 ## Setup
-**1.**** Download `Class Manager.bat` and `Class Manager on top.exe` and put them in the same folder.
+**1.** Download `Class Manager.bat` and `Class Manager on top.exe` and put them in the same folder.
    Note: If you have AutoHotKeys installed on your PC, you can use `Class Manager on top.ahk`, the open source version. If you dont care about the manager file being on top, you can just download niether.
 **2.** Create a folder named `Classes` in the same directory.
 **3.** Download the template class file and put it in the `Classes` folder.
