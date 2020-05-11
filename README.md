@@ -1,5 +1,5 @@
 # class-manager
-Class Manager for schools using Blackboard
+Class Manager for schools using Blackboard. Blackboard is a maze of buttons and slow on slow networks. This helps you get where you need to go faster.
 
 ## Setup
 1. Download `Class Manager.bat` and `Class Manager on top.exe` and put them in the same folder.
@@ -44,3 +44,8 @@ set grades=Gades URL
 6. For each class you should test the weekly course content section. Choose week four. If it opens to week three, up the `weekstartminuesone` variable by one. Do the opposite if it opens to week five.
 
 Sorry its a bit janky and hard to do, but it makes each course a lot easier to manage. I hope to impliment a system to automate all of this later on.
+
+## Future Plans:
+
+1. Automatic week calculator (so you dont have to choose the week).
+2. Easier Config setup (could use help on that one everyone :)
